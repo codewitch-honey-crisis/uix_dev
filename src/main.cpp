@@ -1,5 +1,5 @@
-#define WIFI_SSID "Communism_Will_Win"
-#define WIFI_PASS "mypalkarl"
+#define WIFI_SSID "foo"
+#define WIFI_PASS "foobar"
 #define GOOGLE_URL "http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"
 
 #include <Arduino.h>
