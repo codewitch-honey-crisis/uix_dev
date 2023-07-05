@@ -44,8 +44,6 @@
 // can anyone think of a better way?
 // ideas to further optimize the above
 
-#define WIFI_SSID "my_ssid"
-#define WIFI_PASS "my_pass"
 #define GOOGLE_URL "http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"
 
 #include <Arduino.h>
@@ -67,7 +65,7 @@ void setup() {
     // screen updates and clears all 
     // dirty rects. 
     display_update();
-    WiFi.begin(WIFI_SSID, WIFI_PASS);
+    WiFi.begin();
     Serial.print("Connecting");
     while (WiFi.status() != WL_CONNECTED) {
         Serial.print(".");
