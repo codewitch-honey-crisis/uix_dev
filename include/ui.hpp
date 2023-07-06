@@ -1,7 +1,6 @@
 #include <display.hpp>
 #include <uix.hpp>
 #include <gfx.hpp>
-#include "uix_image.hpp"
 
 using surface_t = typename screen_t::control_surface_type;
 using label_t = uix::label<surface_t>; 
